@@ -10,7 +10,7 @@ async function init() {
         const result = await db()
         console.log('Database status: ', result)
 
-        const app = express()
+        const app = express() 
         const PORT = 3000
 
         app.use(cors())
